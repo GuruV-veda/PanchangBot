@@ -5,7 +5,7 @@ from openai import OpenAI
 load_dotenv()
 client = OpenAI(api_key=os.getenv("OPENAI_API_KEY"))
 
-VECTOR_STORE_ID = "vs_69c4c313a79c8191b4d8619377036ed8"
+VECTOR_STORE_ID = "vs_69c4481dc2b48191aff0b997e515845b"
 # "vs_69c4481dc2b48191aff0b997e515845b"
 
 conversation = []
