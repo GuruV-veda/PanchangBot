@@ -1,0 +1,61 @@
+{
+  "Temple_Information": {
+    "Name": "Sri Venkateswara Temple (VEDA)",
+    "Address": "7305 208th AVE NE, Redmond, WA 98053",
+    "Phone": "(425) 998-9132",
+    "Website": "www.vedatemple.org",
+    "Temple_Hours": {
+      "Weekends": "Mornings: 8:00 AM to 1:00 PM, Evenings: 6:00 PM to 9:00 PM",
+      "Weekdays": "Mornings: 8:30 AM to 11:00 AM, Evenings: 6:00 PM to 8:30 PM"
+    }
+  },
+  "Weekly_Abhisheka_Puja_Schedule": [
+    { "Day": "Monday", "Time": "9:00 AM", "Service": "Shiva Abhishekam" },
+    { "Day": "Tuesday", "Time": "6:30 PM", "Service": "Subrahmanya Abhishekam, Skanda Sashti Kavacham parayana, Karya Siddhi Vajravel Puja" },
+    { "Day": "Wednesday", "Time": "9:00 AM", "Service": "Ayyappa Abhishekam" },
+    { "Day": "Thursday", "Time": "9:00 AM", "Service": "Ganapathi Abhishekam" },
+    { "Day": "Thursday", "Time": "7:00 PM", "Service": "Hanuman Chalisa" },
+    { "Day": "Friday", "Time": "9:00 AM", "Service": "Parvati Abhishekam" },
+    { "Day": "Friday", "Time": "7:00 PM", "Service": "Sri Lalitha Sahasranama Parayanam" },
+    { "Day": "Saturday", "Time": "8:00 AM", "Service": "Sri Venkateswara Suprabhatham" },
+    { "Day": "Saturday", "Time": "7:00 PM", "Service": "Sri Vishnu Sahasranama Parayanam" },
+    { "Day": "Saturday", "Time": "8:30 PM", "Service": "Ekanta Seva" },
+    { "Day": "Sunday", "Time": "9:00 AM", "Service": "Navagraha Abhishekam" }
+  ],
+  "Monthly_Puja_Schedule": [
+    { "Occurrence": "1st Friday", "Time": "9:00 AM", "Service": "Sri Mahalakshmi Abhishekam" },
+    { "Occurrence": "1st Saturday", "Time": "9:00 AM", "Service": "Sri Venkateswara Abhishekam" },
+    { "Occurrence": "1st Sunday", "Time": "9:00 AM", "Service": "Sri Aandal Abhishekam" },
+    { "Occurrence": "1st Saturday", "Time": "6:00 PM", "Service": "Srinivasa Kalyanam" },
+    { "Occurrence": "1st Thursday", "Time": "6:30 PM", "Service": "Sri Anjaneya Abhishekam" },
+    { "Occurrence": "3rd Saturday", "Time": "8:30 AM", "Service": "Ayyappa Bhajans, Padi Puja" }
+  ],
+  "Tithi_Based_Puja_Schedule": [
+    { "Tithi": "Sankatahara Chaturthi", "Time": "6:30 PM", "Service": "Ganesha Abhishekam" },
+    { "Tithi": "Trayodasi", "Time": "6:30 PM / 8:00 PM", "Service": "Pradosha Rudrabhishekam / Shiva Parvati Purappadu" },
+    { "Tithi": "Poornima", "Time": "6:30 PM", "Service": "Samuhika Satyanarayana Puja" }
+  ],
+  "Priest_Services": {
+    "In_Temple_and_At_Home": [
+      "Aksharabhyasam",
+      "Homams (Ganapathi, Navagraha, Ayushya)",
+      "Kalyanam (Wedding)",
+      "Grihapravesham",
+      "Upanayanam",
+      "Seemantam",
+      "Sathabhishekam"
+    ],
+    "Special_Puja_Services": [
+      "Annabhishekam",
+      "Bhagavati Seva",
+      "Deepalankara Seva",
+      "Thiruppavada Seva"
+    ]
+  },
+  "VEDA_Priests": [
+    { "Name": "Sriman Jagannadhacharyulu Kanduri", "Title": "Chief Priest" },
+    { "Name": "Brahmasri Girish Sharma", "Role": "Vedic Scholar" },
+    { "Name": "Sriman Srihari Parasara Bhattar", "Specialty": "Agamam, Vedam, Prabhandam" },
+    { "Name": "Sri Sundarrajan Ghanapatigal", "Specialty": "Krishna Yajurveda" }
+  ]
+}

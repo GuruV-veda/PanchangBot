@@ -1,0 +1,188 @@
+{
+  "Makar Sankranti": {
+    "rule_type": "solar",
+    "solar_month": "Makara",
+    "description": "Sun enters Makara rashi (Capricorn) - Sankranti observed on this day."
+  },
+  "Maha Shivaratri": {
+    "tithi": "Chaturdashi",
+    "paksha": "Krishna",
+    "masa": "Phalguna",
+    "time_rule": "Chaturdashi spans midnight"
+  },
+  "Holi": {
+    "tithi": "Purnima",
+    "paksha": "Shukla",
+    "masa": "Phalguna",
+    "description": "Purnima in Phalguna Shukla Paksha"
+  },
+  "Chaitra Navaratri (start)": {
+    "tithi": "Prathama",
+    "paksha": "Shukla",
+    "masa": "Chaitra",
+    "description": "First day of Chaitra Navaratri"
+  },
+  "Rama Navami": {
+    "tithi": "Navami",
+    "paksha": "Shukla",
+    "masa": "Chaitra",
+    "time_rule": "navami prevalent at midday"
+  },
+  "Hanuman Jayanti": {
+    "tithi": "Purnima",
+    "paksha": "Shukla",
+    "masa": "Chaitra"
+  },
+  "Akshaya Tritiya": {
+    "tithi": "Tritiya",
+    "paksha": "Shukla",
+    "masa": "Vaishakha",
+    "time_rule": "tritiya prevalent during sunrise"
+  },
+  "Narasimha Jayanti": {
+    "tithi": "Chaturdashi",
+    "paksha": "Shukla",
+    "masa": "Vaishakha",
+    "time_rule": "chaturdashi prevalent at sunset"
+  },
+  "Vaikasi Visakam": {
+    "solar_month": "Vaikasi",
+    "nakshatra": "Vishakha",
+    "rule_type": "solar_nakshatra"
+  },
+  "Jagannath Ratha Yatra": {
+    "tithi": "Dwitiya",
+    "paksha": "Shukla",
+    "masa": "Ashadha"
+  },
+  "Guru Purnima": {
+    "tithi": "Purnima",
+    "paksha": "Shukla",
+    "masa": "Ashadha"
+  },
+  "Nag Panchami": {
+    "tithi": "Panchami",
+    "paksha": "Shukla",
+    "masa": "Shravana"
+  },
+  "Raksha Bandhan": {
+    "tithi": "Purnima",
+    "paksha": "Shukla",
+    "masa": "Shravana"
+  },
+  "Krishna Janmashtami": {
+    "tithi": "Ashtami",
+    "paksha": "Krishna",
+    "masa": "Bhadrapada",
+    "time_rule": "ashtami prevalent at midnight",
+    "nakshatra_optional": "Rohini"
+  },
+  "Hartalika Teej": {
+    "tithi": "Tritiya",
+    "paksha": "Shukla",
+    "masa": "Bhadrapada"
+  },
+  "Ganesh Chaturthi": {
+    "tithi": "Chaturthi",
+    "paksha": "Shukla",
+    "masa": "Bhadrapada",
+    "time_rule": "chaturthi prevalent during sunrise"
+  },
+  "Rishi Panchami": {
+    "tithi": "Panchami",
+    "paksha": "Shukla",
+    "masa": "Bhadrapada"
+  },
+  "Onam": {
+    "solar_month": "Chingam",
+    "nakshatra": "Thiruvonam",
+    "rule_type": "solar_nakshatra"
+  },
+  "Pitru Paksha": {
+    "paksha": "Krishna",
+    "masa": "Bhadrapada",
+    "notes": "Period from Purnima or Pratipada to Amavasya"
+  },
+  "Mahalaya Amavasya": {
+    "tithi": "Amavasya",
+    "paksha": "Krishna",
+    "masa": "Bhadrapada"
+  },
+  "Sharad Navaratri (start)": {
+    "tithi": "Prathama",
+    "paksha": "Shukla",
+    "masa": "Ashwin"
+  },
+  "Durga Ashtami": {
+    "tithi": "Ashtami",
+    "paksha": "Shukla",
+    "masa": "Ashwin"
+  },
+  "Maha Navami": {
+    "tithi": "Navami",
+    "paksha": "Shukla",
+    "masa": "Ashwin"
+  },
+  "Dussehra (Vijayadashami)": {
+    "tithi": "Dashami",
+    "paksha": "Shukla",
+    "masa": "Ashwin"
+  },
+  "Karva Chauth": {
+    "tithi": "Chaturthi",
+    "paksha": "Krishna",
+    "masa": "Kartika"
+  },
+  "Ahoi Ashtami": {
+    "tithi": "Ashtami",
+    "paksha": "Krishna",
+    "masa": "Kartika"
+  },
+  "Dhanteras": {
+    "tithi": "Trayodashi",
+    "paksha": "Krishna",
+    "masa": "Ashwin"
+  },
+  "Naraka Chaturdashi": {
+    "tithi": "Chaturdashi",
+    "paksha": "Krishna",
+    "masa": "Ashwin"
+  },
+  "Diwali (Lakshmi Puja)": {
+    "tithi": "Amavasya",
+    "paksha": "Krishna",
+    "masa": "Ashwin",
+    "time_rule": "amavasya prevalent at sunset"
+  },
+  "Govardhan Puja / Annakut": {
+    "tithi": "Prathama",
+    "paksha": "Shukla",
+    "masa": "Kartika"
+  },
+  "Bhai Dooj": {
+    "tithi": "Dvitiiya",
+    "paksha": "Shukla",
+    "masa": "Kartika"
+  },
+  "Kartik Purnima": {
+    "tithi": "Purnima",
+    "paksha": "Shukla",
+    "masa": "Kartika"
+  },
+  "Pradosham": {
+    "tithi": "Trayodashi",
+    "notes": "Occurs twice a month, on the 13th tithi of each paksha"
+  },
+  "Ekadashi": {
+    "tithi": "Ekadashi",
+    "notes": "Occurs twice a month, on the 11th tithi of each paksha"
+  },
+  "Purnima": {
+    "tithi": "Purnima",
+    "notes": "Full Moon, 15th tithi in Shukla Paksha"
+  },
+  "Amavasya": {
+    "tithi": "Amavasya",
+    "notes": "New Moon, 15th tithi in Krishna Paksha"
+  }
+}
