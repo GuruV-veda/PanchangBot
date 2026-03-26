@@ -4,6 +4,23 @@ from event_registry import EVENTS
 
 class PanchangCalendar:
 
+    def __init__(self, csv_path):
+        self.df = pd.read_csv(csv_path, encoding="utf-8-sig")
+        self.df.columns = self.df.columns.str.strip()
+
+        if "Date" not in self.df.columns:
+            raise ValueError(
+                f"Expected 'Date' column. Found: {self.df.columns.tolist()}"
+            )
+
+        self.df["GregorianDate"] = pd.to_datetime(
+            self.df["Date"],
+            dayfirst=True
+        )
+
+        self.today = pd.Timestamp.today().normalize()
+
+
     def next_tithi(self, tithi_name):
         future = self.df[self.df["GregorianDate"] >= self.today]
 
@@ -47,18 +64,3 @@ class PanchangCalendar:
             if month > 12:
                 month = 1
                 year += 1
-
-    def next_event(calendar, event_name):
-        event = EVENTS.get(event_name.lower())
-
-        if not event:
-            return None
-
-        if event["type"] == "tithi":
-            return calendar.next_tithi(event["value"])
-
-        if event["type"] == "nakshatra":
-            return calendar.next_nakshatra(event["value"])
-
-        if event["type"] == "monthly_weekday":
-            return calendar.next_monthly_weekday(event["occurrence"])
