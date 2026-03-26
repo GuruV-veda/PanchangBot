@@ -1,5 +1,23 @@
 import streamlit as st
 from openai import OpenAI
+from event_parser import extract_event_name
+from calendar_tools import PanchangCalendar
+from event_engine import next_event
+
+calendar = PanchangCalendar("data/seattle_panchang_2026_mypanchang_fixed.csv")
+
+user_question = st.chat_input()
+
+if user_question:
+    event_name = extract_event_name(user_question)
+
+    if event_name:
+        result = next_event(calendar, event_name)
+
+        if result is None:
+            st.write("No upcoming occurrence found.")
+        else:
+            st.write(f"Next {event_name.title()} is on {result}.")
 
 client = OpenAI(api_key=st.secrets["OPENAI_API_KEY"])
 
